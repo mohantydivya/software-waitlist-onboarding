@@ -1,0 +1,14 @@
+{
+  "name": "launchgate",
+  "version": "1.0.0",
+  "description": "LaunchGate: a software waitlist and onboarding funnel with role-checked approvals.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "python3 -m http.server 5173",
+    "test": "node --test"
+  }
+}
